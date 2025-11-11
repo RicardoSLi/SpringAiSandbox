@@ -1,10 +1,5 @@
 package exe.lol.SpringAiSandbox;
 
-import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.ai.chat.client.DefaultChatClient;
-import org.springframework.ai.chat.client.DefaultChatClientBuilder;
-import org.springframework.ai.chat.model.ChatModel;
-import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
