@@ -12,6 +12,7 @@ public class PoetryService {
     }
 
     String generate() {
+        System.out.println("Starting ");
         return chatClient
                 .prompt("Write a playful haiku about morning coffee following the traditional 5-7-5 syllable structure.")
                 .call()
